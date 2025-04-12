@@ -1,0 +1,65 @@
+*{
+    background-color: white;
+    margin: 4;
+    padding: 2;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+color: green;
+font-size: 90pt;
+text-align: center;
+text-shadow: 8px 3px 10px rgb(0 0 0 / 0.2);
+}
+.headings{
+    color: grey;
+    text-align: center;
+    text-shadow: 8px 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.bodys{
+    padding-left: 5%;
+    padding-right: 5%;
+color: rgb(162, 162, 162);
+text-align: center;
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+    place-content: center;
+    padding-left: 15%;
+    padding-top: 1%;
+    text-decoration: none;
+}
+a{
+    text-decoration: solid;
+    cursor: pointer;
+    color: gold;
+}
+/* a:visited{
+    color: grey;
+} */
+a:hover{
+    color: #808080;
+}
+a:active{
+    color: #add8e6;
+}
+a1{
+    text-align: center;
+}
+.logomain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
